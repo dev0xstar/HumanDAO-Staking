@@ -105,7 +105,7 @@ function Navbar({
             }
           >
             <TokenLogoWhite />
-            <span className="mr-2">HDAO Price</span> <span className="font-black"> ${hdaoPrice ? hdaoPrice.toFixed(3) : ""} </span>
+            <span className="mr-2">HDAO Price</span> <span className="font-black"> ${hdaoPrice ? "---" : ""} </span>
           </a>
         </p>
       </div>

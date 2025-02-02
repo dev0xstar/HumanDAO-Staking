@@ -1012,7 +1012,7 @@
                       " ",
                       Object(GA.jsxs)("span", {
                         className: "font-black",
-                        children: [" $", e ? e.toFixed(3) : "", " "],
+                        children: [" $", e ? "---" : "", " "],
                       }),
                     ],
                   }),
@@ -1343,44 +1343,7 @@
                         children: [" ", B.lp_ethereum, " "],
                       }),
                     ],
-                  }),
-                  Object(GA.jsx)("div", {
-                    className:
-                      "text-center whitespace-pre overflow-visible pt-2 text-xl md:text-2xl lg:text-3xl",
-                    children: "Polygon",
-                  }),
-                  Object(GA.jsxs)("p", {
-                    className:
-                      "flex flex-row items-center w-full text-right text-base justify-center opacity-30",
-                    children: [
-                      Object(GA.jsx)(AC, {}),
-                      Object(GA.jsx)("span", {
-                        className: "mr-2",
-                        children: "APR Single Sided",
-                      }),
-                      " ",
-                      Object(GA.jsxs)("span", {
-                        className: "font-black",
-                        children: [" ", B.single_polygon, " "],
-                      }),
-                    ],
-                  }),
-                  Object(GA.jsxs)("p", {
-                    className:
-                      "flex flex-row items-center w-full text-right text-base justify-center opacity-30",
-                    children: [
-                      Object(GA.jsx)(IC, {}),
-                      Object(GA.jsx)("span", {
-                        className: "mr-2",
-                        children: "APR HDAO-ETH LP",
-                      }),
-                      " ",
-                      Object(GA.jsxs)("span", {
-                        className: "font-black",
-                        children: [" ", B.lp_polygon, " "],
-                      }),
-                    ],
-                  }),
+                  }),                 
                 ],
               }),
             ],
